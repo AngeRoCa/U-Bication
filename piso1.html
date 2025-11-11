@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Piso 1 - Facultad</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="back" href="index.html">← Volver</a>
+    <h2>Piso 1</h2>
+    <div class="search">
+      <input id="searchInput" placeholder="Buscar aula (ej: INFO 03 o 103)" />
+      <button id="searchBtn">Buscar</button>
+    </div>
+
+    <div class="route-selector">
+      <label for="fromSelect">Desde:</label>
+      <select id="fromSelect">
+        <option value="">Selecciona un aula</option>
+      </select>
+    
+      <label for="toSelect">Hasta:</label>
+      <select id="toSelect">
+        <option value="">Selecciona un aula</option>
+      </select>
+    
+      <button id="generateRouteBtn">Generar ruta</button>
+    </div>
+  </header>
+
+  <main class="map-wrapper">
+    <div id="mapContainer" class="map-container" data-floor="1">
+      <img src="img/piso1.jpeg" alt="Plano primer piso" class="map-image">
+    </div>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button id="closeModal" class="modal-close" aria-label="Cerrar">✕</button>
+      <div id="modalBody" class="modal-body">
+        <!-- Solo nombre del aula (opción 1) -->
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

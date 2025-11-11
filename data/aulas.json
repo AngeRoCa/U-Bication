@@ -1,0 +1,17 @@
+[
+    { "id": 1, "name": "INFO 04", "floor": 1, "top": "15%", "left": "18%" },
+    { "id": 2, "name": "AULA SG 01", "floor": 1, "top": "36%", "left": "14%" },
+    { "id": 3, "name": "COORDINACIÓN", "floor": 1, "top": "60%", "left": "36%" },
+    { "id": 4, "name": "INFO 03", "floor": 1, "top": "18%", "left": "46%" },
+    { "id": 5, "name": "INFO 05", "floor": 1, "top": "60%", "left": "54%" },
+    { "id": 6, "name": "SALA DOCENTES", "floor": 1, "top": "26%", "left": "62%" },
+    { "id": 7, "name": "CAFETERÍA", "floor": 1, "top": "18%", "left": "80%" },
+  
+    { "id": 8, "name": "INFO 06", "floor": 2, "top": "10%", "left": "12%" },
+    { "id": 9, "name": "DECANATURA", "floor": 2, "top": "36%", "left": "12%" },
+    { "id": 10, "name": "SECRETARIA", "floor": 2, "top": "36%", "left": "22%" },
+    { "id": 11, "name": "INFO 01", "floor": 2, "top": "10%", "left": "46%" },
+    { "id": 12, "name": "INFO 02", "floor": 2, "top": "54%", "left": "58%" },
+    { "id": 13, "name": "HALL", "floor": 2, "top": "28%", "left": "42%" }
+]
+  
