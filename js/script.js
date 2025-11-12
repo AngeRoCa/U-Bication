@@ -1,6 +1,11 @@
 // js/script.js - versión con selectores de ruta integrados
 let paths = [];
 
+// --- NUEVO CÓDIGO A PEGAR ---
+// Lista de IDs de nodos que no deben ser visibles en el mapa.
+const HIDDEN_NODES_PISO_1 = ["P1A", "P1B", "P1C", "P1D", "P1E", "P1F","P1G"];
+// -----------------------------
+
 document.addEventListener("DOMContentLoaded", () => {
 
   // Elementos de la página
@@ -57,29 +62,38 @@ document.addEventListener("DOMContentLoaded", () => {
       console.error("Error al cargar datos:", err);
     });
 
-  // Generar marcadores visuales
-  function generateMarkers(aulas) {
-    markers.forEach((m) => m.remove());
-    markers.length = 0;
+  // CÓDIGO MODIFICADO A PEGAR EN SU LUGAR
+// Generar marcadores visuales
+  function generateMarkers(aulas) {
+    markers.forEach((m) => m.remove());
+    markers.length = 0;
 
-    aulas.forEach((aula, index) => {
-      const btn = document.createElement("button");
-      btn.className = "marker";
-      btn.style.top = aula.top;
-      btn.style.left = aula.left;
-      btn.dataset.name = aula.name;
-      btn.dataset.id = aula.id ?? index + 1;
-      btn.textContent = String(index + 1);
+    aulas.forEach((aula, index) => {
+      const aulaIdString = String(aula.id); // Convertir ID a string
 
-      btn.addEventListener("click", () => {
-        openModalWith(aula.name);
-        highlightSingle(btn);
-      });
+      // **FILTRO CLAVE: Si es un nodo de pasillo, salta la creación del botón**
+      if (HIDDEN_NODES_PISO_1.includes(aulaIdString)) {
+        return; // Pasa a la siguiente aula sin crear el marcador
+      }
+      // -------------------------------------------------------------
+      
+      const btn = document.createElement("button");
+      btn.className = "marker";
+      btn.style.top = aula.top;
+      btn.style.left = aula.left;
+      btn.dataset.name = aula.name;
+      btn.dataset.id = aulaIdString; // Usamos el ID original del JSON
+      btn.textContent = String(aula.id); // Usar el ID del JSON para el texto
 
-      mapContainer.appendChild(btn);
-      markers.push(btn);
-    });
-  }
+      btn.addEventListener("click", () => {
+        openModalWith(aula.name);
+        highlightSingle(btn);
+      });
+
+      mapContainer.appendChild(btn);
+      markers.push(btn);
+    });
+  }
 
   // --- NUEVO: Llenar selectores Desde/Hasta ---
   function populateSelectors(aulas) {
@@ -107,7 +121,7 @@ document.addEventListener("DOMContentLoaded", () => {
     generateRouteBtn.addEventListener("click", () => {
       const fromId = fromSelect.value;
       const toId = toSelect.value;
-
+  
       if (!fromId || !toId) {
         alert("Por favor selecciona ambas aulas.");
         return;
@@ -116,20 +130,29 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("El origen y destino no pueden ser iguales.");
         return;
       }
-
+  
       const pathKey = `${fromId}-${toId}`;
       const reverseKey = `${toId}-${fromId}`;
-console.log(paths);
-      // Intentar buscar la ruta en caminos.json
+  
+      let selectedKey = null;
+  
       if (paths[pathKey]) {
-        drawPath(pathKey);
+        selectedKey = pathKey;
       } else if (paths[reverseKey]) {
-        drawPath(reverseKey);
+        selectedKey = reverseKey;
       } else {
         alert("No hay una ruta definida entre esas aulas.");
+        return;
       }
+  
+      // Dibuja la ruta
+      drawPath(selectedKey);
+  
+      // --- NUEVO: Reproducir el audio asociado ---
+      playRouteAudio(selectedKey);
     });
   }
+  
 
   // Destacar marcador seleccionado
   function highlightSingle(marker) {
@@ -226,3 +249,19 @@ function drawPath(key) {
     mapContainer.appendChild(line);
   });
 }
+
+function playRouteAudio(key) {
+  const audioPath = `audios/${key}.aac`;
+  const audio = new Audio(audioPath);
+
+  // Opcional: detener cualquier otro audio que esté sonando
+  if (window.currentAudio && !window.currentAudio.paused) {
+    window.currentAudio.pause();
+  }
+
+  window.currentAudio = audio;
+  audio.play().catch(err => {
+    console.warn("No se pudo reproducir el audio:", err);
+  });
+}
+

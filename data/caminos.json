@@ -1,7 +1,10 @@
 {
   "1-7": [
-    { "type": "horizontal", "top": "17%", "left": "30%", "length": "7%" },
-    { "type": "vertical", "top": "17%", "left": "37%", "length": "19%" },
-    { "type": "horizontal", "top": "35%", "left": "37%", "length": "37%" }
+    { "type": "horizontal", "top": "38%", "left": "19%", "length": "11.5%" }, 
+    { "type": "vertical", "top": "38%", "left": "30%", "length": "10%" },    
+    { "type": "vertical", "top": "40%", "left": "30%", "length": "10%" },   
+    { "type": "horizontal", "top": "49%", "left": "30%", "length": "34.5%" }, 
+    { "type": "vertical", "top": "42%", "left": "64%", "length": "8%" },   
+    { "type": "horizontal", "top": "42%", "left": "64%", "length": "7.5%" } 
   ]
 }

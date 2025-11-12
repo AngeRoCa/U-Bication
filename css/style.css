@@ -98,4 +98,36 @@
   .vertical {
     width: 12px;
   }
-  
+  .line {
+    position: absolute;
+    background: var(--accent); /* Usamos el color azul de tu variable --accent */
+    z-index: 2;
+    border-radius: 4px;
+    /* Opcional: añade una animación sutil */
+    transition: all 0.5s ease-out; 
+}
+
+/* Redefinición para grosor de línea */
+.horizontal { 
+    height: 8px; /* Un poco más delgado que 12px para verse mejor */
+}
+.vertical { 
+    width: 8px; /* Un poco más delgado que 12px para verse mejor */
+}
+
+/* 2. Estilos para resaltar el ORIGEN y el DESTINO (Nodos clave) */
+.marker.start-node {
+    background: #0078ff; /* Azul (accent) */
+    transform: translate(-50%, -50%) scale(1.3); /* Lo hace más grande */
+    border: 3px solid #fff; /* Borde blanco para que destaque */
+    z-index: 5; /* Asegura que esté por encima de las líneas */
+    box-shadow: 0 0 15px rgba(0, 120, 255, 0.7);
+}
+
+.marker.end-node {
+    background: #ff0000; /* Rojo vibrante */
+    transform: translate(-50%, -50%) scale(1.3);
+    border: 3px solid #fff;
+    z-index: 5;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.7);
+}
