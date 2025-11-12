@@ -1,11 +1,11 @@
 [
-    { "id": 1, "name": "INFO 04", "floor": 1, "top": "38%", "left": "18%", "image": "img/fotos/info04.jpg"},
+    { "id": 1, "name": "INFO 04", "floor": 1, "top": "38%", "left": "18%", "img":"img/fotos/info04.jpg"},
     { "id": 2, "name": "AULA SG 01", "floor": 1, "top": "57%", "left": "18%" },
     { "id": 3, "name": "COORDINACIÓN", "floor": 1, "top": "62%", "left": "35%" },
     { "id": 4, "name": "INFO 03", "floor": 1, "top": "43%", "left": "46%" },
     { "id": 5, "name": "INFO 05", "floor": 1, "top": "62%", "left": "54%" },
     { "id": 6, "name": "SALA DOCENTES 1", "floor": 1, "top": "45%", "left": "57%" },
-    { "id": 7, "name": "CAFETERÍA", "floor": 1, "top": "42%", "left": "72%" },
+    { "id": 7, "name": "CAFETERÍA", "floor": 1, "top": "42%", "left": "72%", "img":"img/fotos/cafeteria.JPG" },
     { "id": 8, "name": "PATIO", "floor": 1, "top": "23%", "left": "52%" },
     { "id": 9, "name": "SALA DOCENTES 2", "floor": 1, "top": "51%", "left": "76%" },
     { "id": 10, "name": "AULA SG 05", "floor": 1, "top": "69%", "left": "68%" },

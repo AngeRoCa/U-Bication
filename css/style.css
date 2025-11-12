@@ -131,3 +131,18 @@
     z-index: 5;
     box-shadow: 0 0 15px rgba(255, 0, 0, 0.7);
 }
+
+/* --- Estilo para la imagen dentro del modal --- */
+.modal-image {
+    /* Esencial: Limita el ancho al 100% del contenedor del modal */
+    max-width: 100%; 
+    
+    /* Esencial: Mantiene la proporción de la imagen */
+    height: auto; 
+    
+    /* Opcional: Estética */
+    display: block; /* Asegura que tome todo el ancho disponible */
+    margin: 15px auto 0; /* Centra la imagen y da un margen superior */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
