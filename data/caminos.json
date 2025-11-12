@@ -5,6 +5,37 @@
     { "type": "vertical", "top": "40%", "left": "30%", "length": "10%" },   
     { "type": "horizontal", "top": "49%", "left": "30%", "length": "34.5%" }, 
     { "type": "vertical", "top": "42%", "left": "64%", "length": "8%" },   
-    { "type": "horizontal", "top": "42%", "left": "64%", "length": "7.5%" } 
+    { "type": "horizontal", "top": "42%", "left": "64%", "length": "7.5%" }
+  ],
+  
+  "8-3": [
+    { "type": "horizontal", "top": "23%", "left": "36%", "length": "16%" }, 
+    { "type": "vertical", "top": "23%", "left": "35%", "length": "30%" }
+  ],
+
+  "11-10": [
+    { "type": "vertical", "top": "30%", "left": "64%", "length": "38%" }
+  ],
+
+
+
+  "18-15": [
+    { "type": "horizontal", "top": "50%", "left": "22%", "length": "23%" }
+  ],
+  
+  "17-19": [
+    { "type": "horizontal", "top": "40%", "left": "19%", "length": "11%" }, 
+    { "type": "vertical", "top": "40%", "left": "29%", "length": "15%" }
+  ],
+
+    "16-15": [
+    { "type": "horizontal", "top": "49%", "left": "36%", "length": "8%" }, 
+    { "type": "vertical", "top": "47%", "left": "36%", "length": "3%" }
+  ],
+
+
+    "22-20": [
+    { "type": "horizontal", "top": "66%", "left": "35%", "length": "20%" } 
   ]
+  
 }

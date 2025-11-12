@@ -1,5 +1,5 @@
 [
-    { "id": 1, "name": "INFO 04", "floor": 1, "top": "38%", "left": "18%"},
+    { "id": 1, "name": "INFO 04", "floor": 1, "top": "38%", "left": "18%", "image": "img/fotos/info04.jpg"},
     { "id": 2, "name": "AULA SG 01", "floor": 1, "top": "57%", "left": "18%" },
     { "id": 3, "name": "COORDINACIÓN", "floor": 1, "top": "62%", "left": "35%" },
     { "id": 4, "name": "INFO 03", "floor": 1, "top": "43%", "left": "46%" },
