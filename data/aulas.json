@@ -20,11 +20,16 @@
     { "id": "P1F", "name": "Escaleras 2", "floor": 1, "top": "55%", "left": "43%" },
     { "id": "P1G", "name": "Escaleras 3", "floor": 1, "top": "55%", "left": "66%" },
 
-    { "id": 8, "name": "INFO 06", "floor": 2, "top": "10%", "left": "12%" },
-    { "id": 9, "name": "DECANATURA", "floor": 2, "top": "36%", "left": "12%" },
-    { "id": 10, "name": "SECRETARIA", "floor": 2, "top": "36%", "left": "22%" },
-    { "id": 11, "name": "INFO 01", "floor": 2, "top": "10%", "left": "46%" },
-    { "id": 12, "name": "INFO 02", "floor": 2, "top": "54%", "left": "58%" },
-    { "id": 13, "name": "HALL", "floor": 2, "top": "28%", "left": "42%" }
+    { "id": 19, "name": "INFO 06", "floor": 2, "top": "23%", "left": "12%" },
+    { "id": 18, "name": "DECANATURA", "floor": 2, "top": "52%", "left": "9%" },
+    { "id": 17, "name": "BAÑOS 2", "floor": 2, "top": "56%", "left": "31%" },
+    { "id": 16, "name": "INFO 01", "floor": 2, "top": "43%", "left": "45%" },
+    { "id": 15, "name": "INFO 02", "floor": 2, "top": "54%", "left": "58%" },
+    { "id": 14, "name": "AULA SG 06", "floor": 2, "top": "82%", "left": "62%" },
+
+    { "id": 20, "name": "AULA SG 08", "floor": 3, "top": "52%", "left": "62%" },
+    { "id": 21, "name": "AULA SG 09", "floor": 3, "top": "52%", "left": "39%" },
+    { "id": 22, "name": "AULA SG 10", "floor": 3, "top": "56%", "left": "31%" }
+   
 ]
   

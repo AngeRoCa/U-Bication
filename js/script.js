@@ -1,10 +1,8 @@
 // js/script.js - versión con selectores de ruta integrados
 let paths = [];
 
-// --- NUEVO CÓDIGO A PEGAR ---
 // Lista de IDs de nodos que no deben ser visibles en el mapa.
 const HIDDEN_NODES_PISO_1 = ["P1A", "P1B", "P1C", "P1D", "P1E", "P1F","P1G"];
-// -----------------------------
 
 document.addEventListener("DOMContentLoaded", () => {
 
