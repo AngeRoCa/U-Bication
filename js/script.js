@@ -308,33 +308,16 @@ function drawPath(key) {
 
 // FUNCIÓN playRouteAudio CORREGIDA para buscar en subcarpetas
 function playRouteAudio(key) {
-    // 1. Obtener el ID de origen (el primer número de la clave, ej. "1" de "1-7")
-    const originId = key.split("1-7")[0];
-    
-    // 2. Obtener el nombre de la carpeta (ej. "info04" para ID "1")
-    const folderName = ID_TO_FOLDER_MAP[originId];
 
-    if (!folderName) {
-        console.warn(`[Audio Error] No se encontró mapeo de carpeta para el ID: ${originId}. Intentando ruta principal.`);
-        // Fallback a la ruta antigua (audios/1-7.wav)
-        const audioPathFallback = `audios/${key}.wav`; 
-        const audioFallback = new Audio(audioPathFallback);
-        audioFallback.play().catch(err => console.warn("Fallo ruta fallback:", err));
-        return;
-    }
+    const audioPath = `audios/${key}.wav`;
+    const audio = new Audio(audioPath);
 
-    // 3. Construir la ruta completa: audios/info04/1-7.wav
-    const audioPath = `audios/${folderName}/${key}.wav`;
-    const audio = new Audio(audioPath);
+    if(window.currentAudio && !window.currentAudio.paused){
+        window.currentAudio.pause();
+    }
 
-    // Opcional: detener cualquier otro audio que esté sonando
-    if (window.currentAudio && !window.currentAudio.paused) {
-        window.currentAudio.pause();
-    }
-
-    window.currentAudio = audio;
-    audio.play().catch(err => {
-        console.warn("No se pudo reproducir el audio. Ruta esperada:", audioPath);
-        // Puedes añadir un alert aquí si quieres notificar al usuario final
-    });
+    window.currentAudio = audio;
+    audio.play().catch(err => {
+        console.warn("No se pudo reproducir el audio: ", err);
+    });
 }
