@@ -1,40 +1,60 @@
 {
-  "1-3": [
-    { "type": "horizontal", "top": "38%", "left": "19%", "length": "11.5%" }, 
-    { "type": "vertical", "top": "38%", "left": "30%", "length": "10%" },    
-    { "type": "vertical", "top": "40%", "left": "30%", "length": "10%" },   
-    { "type": "horizontal", "top": "49%", "left": "30%", "length": "34.5%" }, 
-    { "type": "vertical", "top": "42%", "left": "64%", "length": "8%" },   
-    { "type": "horizontal", "top": "42%", "left": "64%", "length": "7.5%" }
+  "1-7": [
+    { "type": "horizontal", "top": "38%", "left": "20%", "length": "11.5%" }, 
+    { "type": "vertical", "top": "38%", "left": "30%", "length": "12.5%" },    
+    { "type": "horizontal", "top": "49%", "left": "30%", "length": "35.5%" }, 
+    { "type": "vertical", "top": "42%", "left": "64%", "length": "8.5%" },   
+    { "type": "horizontal", "top": "42%", "left": "64%", "length": "7%" }
   ],
- "2-8": [
-    { "type": "horizontal", "top": "38%", "left": "19%", "length": "11.5%" }, 
-    { "type": "vertical", "top": "38%", "left": "30%", "length": "10%" },    
-    { "type": "vertical", "top": "40%", "left": "30%", "length": "10%" },   
-    { "type": "horizontal", "top": "49%", "left": "30%", "length": "34.5%" }, 
-    { "type": "vertical", "top": "42%", "left": "64%", "length": "8%" },   
-    { "type": "horizontal", "top": "42%", "left": "64%", "length": "7.5%" }
+    "7-1": [ 
+    { "type": "horizontal", "top": "38%", "left": "20%", "length": "11.5%" }, 
+    { "type": "vertical", "top": "38%", "left": "30%", "length": "12.5%" },    
+    { "type": "horizontal", "top": "49%", "left": "30%", "length": "35.5%" }, 
+    { "type": "vertical", "top": "42%", "left": "64%", "length": "8.5%" },   
+    { "type": "horizontal", "top": "42%", "left": "64%", "length": "7%" }
+ ],
+     "1-2": [ 
+    { "type": "horizontal", "top": "38%", "left": "20%", "length": "9%" }, 
+    { "type": "vertical", "top": "38%", "left": "28%", "length": "19%" },    
+    { "type": "horizontal", "top": "55%", "left": "18%", "length": "11%" }
+ ],
+    "2-1": [ 
+    { "type": "horizontal", "top": "38%", "left": "20%", "length": "9%" }, 
+    { "type": "vertical", "top": "38%", "left": "28%", "length": "19%" },    
+    { "type": "horizontal", "top": "55%", "left": "20%", "length": "9%" }
+ ],
+     "1-3": [ 
+    { "type": "horizontal", "top": "38%", "left": "20%", "length": "15.5%" }, 
+    { "type": "vertical", "top": "38%", "left": "34%", "length": "17%" }
+ ],
+      "3-1": [ 
+    { "type": "horizontal", "top": "38%", "left": "20%", "length": "15.5%" }, 
+    { "type": "vertical", "top": "38%", "left": "34%", "length": "17%" }
+ ],
+     "1-4": [ 
+    { "type": "horizontal", "top": "38%", "left": "20%", "length": "19%" }
+ ],
+     "4-1": [ 
+    { "type": "horizontal", "top": "38%", "left": "20%", "length": "19%" }
+ ],
+  "1-5": [
+    { "type": "horizontal", "top": "38%", "left": "20%", "length": "11.5%" }, 
+    { "type": "vertical", "top": "38%", "left": "30%", "length": "12.5%" },      
+    { "type": "horizontal", "top": "49%", "left": "30%", "length": "18%" },
+    { "type": "vertical", "top": "49%", "left": "47%", "length": "5%" }
   ],
-  
+  "5-1": [
+    { "type": "horizontal", "top": "38%", "left": "20%", "length": "11.5%" }, 
+    { "type": "vertical", "top": "38%", "left": "30%", "length": "12.5%" },      
+    { "type": "horizontal", "top": "49%", "left": "30%", "length": "18%" },
+    { "type": "vertical", "top": "49%", "left": "47%", "length": "5%" }
+  ],
 
-  "7-1": [
-    { "type": "horizontal", "top": "38%", "left": "19%", "length": "11.5%" }, 
-    { "type": "vertical", "top": "38%", "left": "30%", "length": "10%" },    
-    { "type": "vertical", "top": "40%", "left": "30%", "length": "10%" },   
-    { "type": "horizontal", "top": "49%", "left": "30%", "length": "34.5%" }, 
-    { "type": "vertical", "top": "42%", "left": "64%", "length": "8%" },   
-    { "type": "horizontal", "top": "42%", "left": "64%", "length": "7.5%" }
-  ],
-  "4-1": [
-    { "type": "horizontal", "top": "38%", "left": "19%", "length": "11.5%" }, 
-    { "type": "vertical", "top": "38%", "left": "30%", "length": "10%" },    
-    { "type": "vertical", "top": "40%", "left": "30%", "length": "10%" },   
-    { "type": "horizontal", "top": "49%", "left": "30%", "length": "34.5%" }, 
-    { "type": "vertical", "top": "42%", "left": "64%", "length": "8%" },   
-    { "type": "horizontal", "top": "42%", "left": "64%", "length": "7.5%" }
-  ],
-  
   "8-3": [
+    { "type": "horizontal", "top": "23%", "left": "36%", "length": "16%" }, 
+    { "type": "vertical", "top": "23%", "left": "35%", "length": "30%" }
+  ],
+  "3-8": [
     { "type": "horizontal", "top": "23%", "left": "36%", "length": "16%" }, 
     { "type": "vertical", "top": "23%", "left": "35%", "length": "30%" }
   ],
