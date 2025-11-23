@@ -105,6 +105,18 @@
     { "type": "horizontal", "top": "49%", "left": "30%", "length": "35%" },
     { "type": "vertical", "top": "49%", "left": "63.8%", "length": "17.5%" }
   ],
+      "1-14": [
+    { "type": "horizontal", "top": "38%", "left": "20%", "length": "11.5%" }, 
+    { "type": "vertical", "top": "38%", "left": "30%", "length": "12.5%" },    
+    { "type": "horizontal", "top": "49%", "left": "30%", "length": "35%" },
+    { "type": "vertical", "top": "49%", "left": "63.8%", "length": "17.5%" }
+  ],
+     "14-1": [
+    { "type": "horizontal", "top": "38%", "left": "20%", "length": "11.5%" }, 
+    { "type": "vertical", "top": "38%", "left": "30%", "length": "12.5%" },    
+    { "type": "horizontal", "top": "49%", "left": "30%", "length": "35%" },
+    { "type": "vertical", "top": "49%", "left": "63.8%", "length": "17.5%" }
+  ],
     "10-1": [
     { "type": "horizontal", "top": "38%", "left": "20%", "length": "11.5%" }, 
     { "type": "vertical", "top": "38%", "left": "30%", "length": "12.5%" },    
@@ -236,6 +248,18 @@
     { "type": "horizontal", "top": "49%", "left": "28%", "length": "37%" },
     { "type": "vertical", "top": "49%", "left": "63.8%", "length": "17.5%" }
   ],
+       "2-14": [
+    { "type": "horizontal", "top": "55%", "left": "20%", "length": "9%" },
+    { "type": "vertical", "top": "49%", "left": "28%", "length": "8%" }, 
+    { "type": "horizontal", "top": "49%", "left": "28%", "length": "37%" },
+    { "type": "vertical", "top": "49%", "left": "63.8%", "length": "17.5%" }
+  ],
+    "14-2": [
+    { "type": "horizontal", "top": "55%", "left": "20%", "length": "9%" },
+    { "type": "vertical", "top": "49%", "left": "28%", "length": "8%" }, 
+    { "type": "horizontal", "top": "49%", "left": "28%", "length": "37%" },
+    { "type": "vertical", "top": "49%", "left": "63.8%", "length": "17.5%" }
+  ],
      "10-2": [
     { "type": "horizontal", "top": "55%", "left": "20%", "length": "9%" },
     { "type": "vertical", "top": "49%", "left": "28%", "length": "8%" }, 
@@ -331,6 +355,16 @@
     { "type": "horizontal", "top": "49%", "left": "35%", "length": "30%" },
     { "type": "vertical", "top": "49%", "left": "64%", "length": "17.5%" }
   ],
+        "3-14": [
+    { "type": "vertical", "top": "49%", "left": "35%", "length": "5%" },  
+    { "type": "horizontal", "top": "49%", "left": "35%", "length": "30%" },
+    { "type": "vertical", "top": "49%", "left": "64%", "length": "17.5%" }
+  ],
+        "14-3": [
+    { "type": "vertical", "top": "49%", "left": "35%", "length": "5%" },  
+    { "type": "horizontal", "top": "49%", "left": "35%", "length": "30%" },
+    { "type": "vertical", "top": "49%", "left": "64%", "length": "17.5%" }
+  ],
       "10-3": [
     { "type": "vertical", "top": "49%", "left": "35%", "length": "5%" },  
     { "type": "horizontal", "top": "49%", "left": "35%", "length": "30%" },
@@ -421,6 +455,18 @@
     { "type": "horizontal", "top": "49%", "left": "34%", "length": "31%" },
     { "type": "vertical", "top": "49%", "left": "64%", "length": "17.5%" }
   ],
+      "4-14": [
+      { "type": "horizontal", "top": "38%", "left": "34.5%", "length": "5%" },
+    { "type": "vertical", "top": "38%", "left": "34%", "length": "12.5%" },
+    { "type": "horizontal", "top": "49%", "left": "34%", "length": "31%" },
+    { "type": "vertical", "top": "49%", "left": "64%", "length": "17.5%" }
+  ],
+      "14-4": [
+      { "type": "horizontal", "top": "38%", "left": "34.5%", "length": "5%" },
+    { "type": "vertical", "top": "38%", "left": "34%", "length": "12.5%" },
+    { "type": "horizontal", "top": "49%", "left": "34%", "length": "31%" },
+    { "type": "vertical", "top": "49%", "left": "64%", "length": "17.5%" }
+  ],
     "10-4": [
     { "type": "horizontal", "top": "38%", "left": "34.5%", "length": "5%" },
     { "type": "vertical", "top": "38%", "left": "34%", "length": "12.5%" },
@@ -495,6 +541,21 @@
     { "type": "vertical", "top": "49%", "left": "47%", "length": "5%" },
     { "type": "vertical", "top": "48%", "left": "64%", "length": "19.5%" }
   ],
+     "10-5": [
+    { "type": "horizontal", "top": "48%", "left": "47%", "length": "18%" }, 
+    { "type": "vertical", "top": "49%", "left": "47%", "length": "5%" },
+    { "type": "vertical", "top": "48%", "left": "64%", "length": "19.5%" }
+  ],
+       "5-14": [
+    { "type": "horizontal", "top": "48%", "left": "47%", "length": "18%" }, 
+    { "type": "vertical", "top": "49%", "left": "47%", "length": "5%" },
+    { "type": "vertical", "top": "48%", "left": "64%", "length": "19.5%" }
+  ],
+       "14-5": [
+    { "type": "horizontal", "top": "48%", "left": "47%", "length": "18%" }, 
+    { "type": "vertical", "top": "49%", "left": "47%", "length": "5%" },
+    { "type": "vertical", "top": "48%", "left": "64%", "length": "19.5%" }
+  ],
     "5-8": [
     { "type": "vertical", "top": "49%", "left": "47%", "length": "5%" },
     { "type": "horizontal", "top": "49%", "left": "35%", "length": "13%" },
@@ -534,6 +595,16 @@
     { "type": "vertical", "top": "49%", "left": "64%", "length": "19.5%" }
   ],
      "10-6": [  
+    { "type": "horizontal", "top": "49%", "left": "55%", "length": "10%" }, 
+    { "type": "vertical", "top": "46%", "left": "55%", "length": "5%" },
+    { "type": "vertical", "top": "49%", "left": "64%", "length": "19.5%" }
+  ],
+       "6-14": [  
+    { "type": "horizontal", "top": "49%", "left": "55%", "length": "10%" }, 
+    { "type": "vertical", "top": "46%", "left": "55%", "length": "5%" },
+    { "type": "vertical", "top": "49%", "left": "64%", "length": "19.5%" }
+  ],
+    "14-6": [  
     { "type": "horizontal", "top": "49%", "left": "55%", "length": "10%" }, 
     { "type": "vertical", "top": "46%", "left": "55%", "length": "5%" },
     { "type": "vertical", "top": "49%", "left": "64%", "length": "19.5%" }
@@ -615,6 +686,14 @@
     { "type": "horizontal", "top": "42%", "left": "64%", "length": "7%" },
     { "type": "vertical", "top": "42%", "left": "64%", "length": "24.5%" }
  ],
+      "7-14": [  
+    { "type": "horizontal", "top": "42%", "left": "64%", "length": "7%" },
+    { "type": "vertical", "top": "42%", "left": "64%", "length": "24.5%" }
+ ],
+    "14-7": [  
+    { "type": "horizontal", "top": "42%", "left": "64%", "length": "7%" },
+    { "type": "vertical", "top": "42%", "left": "64%", "length": "24.5%" }
+ ],
      "7-11": [  
     { "type": "horizontal", "top": "42%", "left": "64%", "length": "7%" },
     { "type": "vertical", "top": "29%", "left": "64%", "length": "15%" }
@@ -628,6 +707,14 @@
     { "type": "horizontal", "top": "50%", "left": "64%", "length": "6%" }
  ],
    "10-9": [  
+    { "type": "vertical", "top": "50%", "left": "64%", "length": "17%" },  
+    { "type": "horizontal", "top": "50%", "left": "64%", "length": "6%" }
+ ],
+    "9-14": [  
+    { "type": "vertical", "top": "50%", "left": "64%", "length": "17%" },  
+    { "type": "horizontal", "top": "50%", "left": "64%", "length": "6%" }
+ ],
+     "14-9": [  
     { "type": "vertical", "top": "50%", "left": "64%", "length": "17%" },  
     { "type": "horizontal", "top": "50%", "left": "64%", "length": "6%" }
  ],
@@ -667,13 +754,30 @@
   "11-10": [
     { "type": "vertical", "top": "30%", "left": "64%", "length": "38%" }
   ],
+  "14-11": [
+    { "type": "vertical", "top": "30%", "left": "64%", "length": "38%" }
+  ],
+  "11-14": [
+    { "type": "vertical", "top": "30%", "left": "64%", "length": "38%" }
+  ],
 
   "10-12": [
     { "type": "vertical", "top": "35%", "left": "64%", "length": "34%" },
     { "type": "horizontal", "top": "34%", "left": "64%", "length": "14.5%" },
     { "type": "vertical", "top": "30%", "left": "77%", "length": "6.5%" }
   ],
+
   "12-10": [
+    { "type": "vertical", "top": "35%", "left": "64%", "length": "34%" },
+    { "type": "horizontal", "top": "34%", "left": "64%", "length": "14.5%" },
+    { "type": "vertical", "top": "30%", "left": "77%", "length": "6.5%" }
+  ],
+    "14-12": [
+    { "type": "vertical", "top": "35%", "left": "64%", "length": "34%" },
+    { "type": "horizontal", "top": "34%", "left": "64%", "length": "14.5%" },
+    { "type": "vertical", "top": "30%", "left": "77%", "length": "6.5%" }
+  ],
+      "12-14": [
     { "type": "vertical", "top": "35%", "left": "64%", "length": "34%" },
     { "type": "horizontal", "top": "34%", "left": "64%", "length": "14.5%" },
     { "type": "vertical", "top": "30%", "left": "77%", "length": "6.5%" }
@@ -683,7 +787,17 @@
     { "type": "horizontal", "top": "48%", "left": "35%", "length": "30.5%" },
     { "type": "vertical", "top": "30%", "left": "35%", "length": "20.5%" }
   ],
+    "14-8": [
+    { "type": "vertical", "top": "48%", "left": "64%", "length": "18%" },
+    { "type": "horizontal", "top": "48%", "left": "35%", "length": "30.5%" },
+    { "type": "vertical", "top": "30%", "left": "35%", "length": "20.5%" }
+  ],
   "8-10": [
+    { "type": "vertical", "top": "48%", "left": "64%", "length": "18%" },
+    { "type": "horizontal", "top": "48%", "left": "35%", "length": "30.5%" },
+    { "type": "vertical", "top": "30%", "left": "35%", "length": "20.5%" }
+  ],
+    "8-14": [
     { "type": "vertical", "top": "48%", "left": "64%", "length": "18%" },
     { "type": "horizontal", "top": "48%", "left": "35%", "length": "30.5%" },
     { "type": "vertical", "top": "30%", "left": "35%", "length": "20.5%" }
