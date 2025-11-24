@@ -25,7 +25,7 @@
     { "id": 17, "name": "BAÑOS 2", "floor": 2, "top": "56%", "left": "31%", "img":"img/fotos/baños2.jpg" },
     { "id": 16, "name": "INFO 01", "floor": 2, "top": "40%", "left": "40%", "img":"img/fotos/info01.JPG" },
     { "id": 15, "name": "INFO 02", "floor": 2, "top": "54%", "left": "48%", "img":"img/fotos/info02.JPG" },
-    { "id": 14, "name": "AULA SG 06", "floor": 1, "top": "69%", "left": "60%", "img":"img/fotos/aulasg06.jpg" },
+    { "id": 14, "name": "AULA SG 06", "floor": 1, "top": "69%", "left": "60%", "img":"img/fotos/aulasg06.JPG" },
 
     { "id": 20, "name": "AULA SG 10", "floor": 3, "top": "52%", "left": "65%", "img":"img/fotos/aulasg10.JPG" },
     { "id": 21, "name": "AULA SG 09", "floor": 3, "top": "52%", "left": "39%", "img":"img/fotos/aulasg09.jpg" },
