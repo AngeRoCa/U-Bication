@@ -23,6 +23,27 @@
 
     <small class="hint">Mapas responsive. Busca por número o nombre de aula.</small>
   </main>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        playRouteAudio('1i');
+    });
+
+    function playRouteAudio(key) {
+
+        const audioPath =`audios/${key}.wav`
+        const audio = new Audio(audioPath);
+
+        if(window.currentAudio && !window.currentAudio.paused){
+            window.currentAudio.pause();
+        }
+
+        window.currentAudio = audio;
+        audio.play().catch(err => {
+            console.warn("No se pudo reproducir el audio: ", err);
+        });
+    }
+</script>
 </body>
+
 </html>
 
