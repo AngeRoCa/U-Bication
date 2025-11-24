@@ -11,7 +11,7 @@
     { "id": 10, "name": "AULA SG 05", "floor": 1, "top": "69%", "left": "68%", "img":"img/fotos/aulasg05.jpg" },
     { "id": 11, "name": "COCINA", "floor": 1, "top": "30%", "left": "61%", "img":"img/fotos/cocina.jpg" },
     { "id": 12, "name": "BAÑOS", "floor": 1, "top": "23%", "left": "79%", "img":"img/fotos/baños.jpg"},
-    { "id": 13, "name": "ZONA VERDE", "floor": 1, "top": "44%", "left": "6%", "img":"img/fotos/zonaverde.jpg" },
+    { "id": 13, "name": "ZONA VERDE", "floor": 0, "top": "44%", "left": "6%", "img":"img/fotos/zonaverde.jpg" },
     { "id": "P1A", "name": "Nudo Central", "floor": 0, "top": "41%", "left": "31%" },
     { "id": "P1B", "name": "Pasillo Oeste", "floor": 0, "top": "50%", "left": "39%" },
     { "id": "P1C", "name": "Pasillo Este", "floor": 0, "top": "50%", "left": "60%" },
