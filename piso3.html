@@ -10,27 +10,34 @@
   <header class="topbar">
     <a class="back" href="index.html">← Volver</a>
     <h2>Piso 3</h2>
-    <div class="search">
+    <!--<div class="search">
       <input id="searchInput" placeholder="Buscar aula (ej: INFO 01 o DECANATURA)" />
       <button id="searchBtn">Buscar</button>
-    </div>
-
-    <div class="route-selector">
-      <label for="fromSelect">Desde:</label>
-      <select id="fromSelect">
-        <option value="">Selecciona un aula</option>
-      </select>
-    
-      <label for="toSelect">Hasta:</label>
-      <select id="toSelect">
-        <option value="">Selecciona un aula</option>
-      </select>
-    
-      <button id="generateRouteBtn">Generar ruta</button>
-    </div>
+    </div>-->
   </header>
 
   <main class="map-wrapper">
+
+    <div class="route-card">
+
+      <div class="route-row">
+        <label for="fromSelect">Desde:</label>
+        <select id="fromSelect">
+          <option value="">Selecciona un aula</option>
+        </select>
+      </div>
+
+      <div class="route-row">
+        <label for="toSelect">Hasta:</label>
+        <select id="toSelect">
+          <option value="">Selecciona un aula</option>
+        </select>
+      </div>
+
+      <button id="generateRouteBtn">Generar ruta</button>
+
+    </div>
+
     <div id="mapContainer" class="map-container" data-floor="3">
       <img src="img/piso 3.png" alt="Plano segundo piso" class="map-image">
     </div>
