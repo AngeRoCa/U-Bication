@@ -112,40 +112,39 @@
   .modal-body{font-size:18px;font-weight:700;text-align:center;padding:12px}
   
   /* Responsive tweaks */
-  @media (max-width:700px){
+@media (max-width:700px){
     :root{--map-max-width:900px}
-    .marker{width:30px;height:30px;font-size:14px}
+
+    /* 🔽 Marcadores más compactos en mobile */
+    .marker{
+        width:15px;
+        height:15px;
+        font-size:12px;
+        border-radius:14%;
+    }
+
     .search input{min-width:120px}
-  }
-
-  .line {
-    position: absolute;
-    background: red;
-    z-index: 2;
-  }
-  
-  .horizontal {
-    height: 12px;
-  }
-  
-  .vertical {
-    width: 12px;
-  }
-  .line {
-    position: absolute;
-    background: var(--accent); /* Usamos el color azul de tu variable --accent */
-    z-index: 2;
-    border-radius: 4px;
-    /* Opcional: añade una animación sutil */
-    transition: all 0.5s ease-out; 
+}
+/* 🔵 Caminito con puntos continuos (responsivo) */
+.line {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+  border: 0;
+  border-color: #0c4682;
+  transition: all .2s linear;
 }
 
-/* Redefinición para grosor de línea */
-.horizontal { 
-    height: 8px; /* Un poco más delgado que 12px para verse mejor */
+/* Horizontal: línea de puntos → arriba */
+.horizontal {
+  height: 0;
+  border-top: 4px dotted #0c4682;
 }
-.vertical { 
-    width: 8px; /* Un poco más delgado que 12px para verse mejor */
+
+/* Vertical: línea de puntos → izquierda */
+.vertical {
+  width: 0;
+  border-left: 4px dotted #0c4682;
 }
 
 /* 2. Estilos para resaltar el ORIGEN y el DESTINO (Nodos clave) */
