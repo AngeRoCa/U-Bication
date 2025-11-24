@@ -20,7 +20,7 @@
     { "id": "P1F", "name": "Escaleras 2", "floor": 0, "top": "55%", "left": "43%" },
     { "id": "P1G", "name": "Escaleras 3", "floor": 0, "top": "55%", "left": "66%" },
 
-    { "id": 19, "name": "INFO 06", "floor": 2, "top": "37%", "left": "15.5%", "img":"img/fotos/info06.JPG" },
+    { "id": 19, "name": "INFO 06", "floor": 2, "top": "37%", "left": "15.5%", "img":"img/fotos/info06.jpg" },
     { "id": 18, "name": "DECANATURA", "floor": 2, "top": "52%", "left": "9%", "img":"img/fotos/decanatura.JPG" },
     { "id": 17, "name": "BAÑOS 2", "floor": 2, "top": "56%", "left": "31%", "img":"img/fotos/baños2.jpg" },
     { "id": 16, "name": "INFO 01", "floor": 2, "top": "40%", "left": "40%", "img":"img/fotos/info01.JPG" },
